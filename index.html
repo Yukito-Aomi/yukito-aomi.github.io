@@ -3,23 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+
+        <title>アオミのホームページ</title>
+        <meta name="description" content="碧海ユキトのホームページです．">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
 
         <link rel="stylesheet" href="./stylesheets/base.css">
         <script src="./scripts/main.js" defer></script>
     </head>
     <body>
-        <header>
-            header
-        </header>
+        <div id="home" class="big-bg">
+            <!-- ヘッダー -->
+            <header class="page-header wrapper">
+                <h1><a href="./index.html"><img class="logo" src="./images/logo.svg" alt="アオミのウェブサイト ホーム"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="">🌱Sample1</a></li>
+                        <li><a href="">🐛Sample2</a></li>
+                        <li><a href="">🦋Sample3</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <main>
-            <h1>Hello, world!</h1>
-            <button onclick="hello()">🔔</button>
-        </main>
-
+            <div class="home-content wrapper">
+                <h2 class="page-title">Welcome<br>to<br>My Homepage!</h2>
+                <p>碧海ユキトのホームページへようこそ！</p>
+            </div>
+        </div>
+        <!-- フッター -->
         <footer>
-            footer
+            <div class="wrapper">
+                <!-- コピーライト -->
+                <p><small>&copy; 2025 Yukito Aomi</small></p>
+            </div>
         </footer>
     </body>
 </html>

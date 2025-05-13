@@ -8,3 +8,86 @@ html {
 body {
     color: black;
 }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-color: lightblue;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 320px;
+    margin-top: 16px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 32px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 32px;
+}
+.main-nav a {
+    color: black;
+}
+.main-nav a:hover {
+    color: blue;
+}
+
+
+.page-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+footer {
+    background-color: darkblue;
+    padding: 32px 0;
+    text-align: center;
+}
+footer p {
+    color: white;
+}
+
+
+#home {
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 16px 0 48px;
+}

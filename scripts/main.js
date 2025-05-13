@@ -1,3 +1,1 @@
-const hello = () => {
-    alert('Hello!');
-};
+alert('🧑‍🔧 このページは現在開発中です．');
