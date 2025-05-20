@@ -6,6 +6,7 @@ import { Home } from './components/pages/Home'
 import { Profile } from './components/pages/Profile';
 import { Products } from './components/pages/Products';
 import { Contact } from './components/pages/Contact';
+import { Whoops404 } from './components/pages/Whoops404';
 import logo from './logo.svg';
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
           path="/contact"
           element={<Contact />}
         />
+        <Route path="*" element={<Whoops404 />} />
       </Routes>
       <Footer />
     </div>
