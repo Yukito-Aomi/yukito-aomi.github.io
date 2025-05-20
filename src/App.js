@@ -1,15 +1,34 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { Home } from './components/pages/Home'
+import { Profile } from './components/pages/Profile';
+import { Products } from './components/pages/Products';
+import { Contact } from './components/pages/Contact';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to My Home Page!
-        </p>
-      </header>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/profile"
+          element={<Profile />}
+        />
+        <Route
+          path="/products"
+          element={<Products />}
+        />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+      </Routes>
+      <Footer />
     </div>
   );
 }
