@@ -1,0 +1,21 @@
+#whoops404 {
+	background: #282c34;
+	height: auto;
+	padding-bottom: 36px;
+}
+#whoops404 .page-title {
+	text-align: center;
+	text-transform: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.whoops404-content {
+	min-height: 50vh;
+	text-align: center;
+	margin-top: 10%;
+}
+.whoops404-content p {
+	font-size: 1.125rem;
+	margin: 16px 0 32px;
+}
