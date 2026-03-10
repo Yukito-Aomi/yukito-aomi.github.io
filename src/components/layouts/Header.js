@@ -1,10 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './Header.css';
 
 
 export function Header() {
   return (
-    <>
-      <h1>[Header]</h1>
-    </>
+    <header className="header wrapper">
+      <h1><Link to="">Aomi Web</Link></h1>
+      <nav className="header-nav" aria-label="Header Navigation">
+        <ul>
+          <li><Link to="">Top</Link></li>
+          <li><Link to="about">About</Link></li>
+        </ul>
+      </nav>
+    </header>
   );
 }

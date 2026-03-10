@@ -1,0 +1,36 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header.wrapper {
+  background-color: black;
+}
+
+.header h1 a {
+  color: #61dafb;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  text-transform: uppercase;
+}
+
+.header-nav ul {
+  display: flex;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.header-nav a {
+  background: black;
+  color: white;
+  margin-left: 1em;
+	padding: 0em 0.5em;
+}
+.header-nav a:hover {
+  color: #61dafb;
+}
