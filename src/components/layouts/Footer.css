@@ -1,0 +1,14 @@
+.footer {
+  align-items: center;
+  bottom: 0px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.footer.wrapper {
+  background-color: black;
+}

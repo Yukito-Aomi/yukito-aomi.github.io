@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './Footer.css';
+
 
 export function Footer() {
   return (
-    <>
-      <p><small>[Footer]</small></p>
-    </>
+    <footer className="footer wrapper">
+      <p><small>&copy; Yukito Aomi</small></p>
+    </footer>
   );
 }
