@@ -12,6 +12,7 @@ export function Header() {
         <ul>
           <li><Link to="">Top</Link></li>
           <li><Link to="about">About</Link></li>
+          <li><Link to="games">Games</Link></li>
         </ul>
       </nav>
     </header>

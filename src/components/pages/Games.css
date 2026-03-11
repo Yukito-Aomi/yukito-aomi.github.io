@@ -1,0 +1,6 @@
+.games h2 {
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  text-transform: uppercase;
+}
