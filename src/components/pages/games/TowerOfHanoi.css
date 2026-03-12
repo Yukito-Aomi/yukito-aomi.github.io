@@ -1,0 +1,32 @@
+.tower-of-hanoi h2 {
+  border-bottom: 0.1em solid white;
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding-left: 0.5em;
+  text-transform: uppercase;
+}
+
+.tower-of-hanoi h3 {
+	border-left: 0.5em solid white;
+	padding-left: 0.5em;
+}
+
+.tower-of-hanoi aside {
+  margin-left: 1em;
+}
+
+.tower-of-hanoi canvas {
+  border: 1px solid black;
+}
+
+.tower-of-hanoi span {
+  color: yellow;
+}
+
+.tower-of-hanoi ul {
+  list-style: none;
+}
+
+.tower-of-hanoi .game-contents {
+  display: flex;
+}
