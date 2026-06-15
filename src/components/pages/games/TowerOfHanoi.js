@@ -5,7 +5,7 @@ import { FaPuzzlePiece } from 'react-icons/fa';
 import './TowerOfHanoi.css';
 
 
-export function TowerOfHanoi() {
+export default function TowerOfHanoi() {
   const CANVAS_WIDTH = 800;   // キャンバスの横幅
   const CANVAS_HEIGHT = 600;  // キャンバスの縦幅
   const BAR_NAME = ['START', '', 'GOAL'];  // 棒の名称
